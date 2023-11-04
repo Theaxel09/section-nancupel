@@ -1,4 +1,4 @@
-.seccion {
+section {
     height: 100vh;
 }
 
@@ -6,8 +6,8 @@ header {
     height: 100px;
 }
 
-img{
-    max-width: 130px;
+.logo{
+    max-width: 100px;
 }
 
 ul {
@@ -16,6 +16,33 @@ ul {
     margin: 0;
 }
 
-section{
+section {
     padding: 7%;
 }
+.carousel-inner {
+    text-align: center;
+}
+.carousel-item img {
+    display: inline-block;
+    margin: 0 auto;
+    width: 90%;
+    max-width: 200px;
+}
+.carousel-control-prev, .carousel-control-next {
+    top: 50%;
+    transform: translateY(-50%);
+    width: 400px;
+    height: 300px;
+}
+
+.seccion1{
+    background-color: lightskyblue;
+}
+
+.seccion2{
+    background-color: yellow;
+}
+.seccion3{
+    background-color: purple;
+}
+
